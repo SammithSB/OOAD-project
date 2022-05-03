@@ -49,13 +49,13 @@ public class AdapterChat extends RecyclerView.Adapter<com.example.socialmediaapp
     @NonNull
     @Override
     public Myholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view;
         if (viewType == MSG_TYPE_LEFT) {
-            View view = LayoutInflater.from(context).inflate(R.layout.row_chat_left, parent, false);
-            return new Myholder(view);
+            view = LayoutInflater.from(context).inflate(R.layout.row_chat_left, parent, false);
         } else {
-            View view = LayoutInflater.from(context).inflate(R.layout.row_chat_right, parent, false);
-            return new Myholder(view);
+            view = LayoutInflater.from(context).inflate(R.layout.row_chat_right, parent, false);
         }
+        return new Myholder(view);
     }
 
     @Override

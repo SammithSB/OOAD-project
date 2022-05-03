@@ -172,13 +172,12 @@ public class PostDetailsActivity extends AppCompatActivity {
                     if (dataSnapshot.child(postId).hasChild(myuid)) {
                         postref.child(postId).child("plike").setValue("" + (Integer.parseInt(plike) - 1));
                         liekeref.child(postId).child(myuid).removeValue();
-                        mlike = false;
 
                     } else {
                         postref.child(postId).child("plike").setValue("" + (Integer.parseInt(plike) + 1));
                         liekeref.child(postId).child(myuid).setValue("Liked");
-                        mlike = false;
                     }
+                    mlike = false;
                 }
             }
 

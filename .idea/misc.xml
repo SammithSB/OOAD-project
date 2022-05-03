@@ -25,6 +25,7 @@
         <entry key="app/src/main/res/drawable/name.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/password.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/profile_image.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/send_message.xml" value="0.1035" />
         <entry key="app/src/main/res/layout/activity_chat.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.18206521739130435" />
         <entry key="app/src/main/res/layout/activity_edit_profile_page.xml" value="0.10677083333333333" />
@@ -43,6 +44,7 @@
         <entry key="app/src/main/res/layout/row_chat_left.xml" value="0.1" />
         <entry key="app/src/main/res/layout/row_chat_right.xml" value="0.1" />
         <entry key="app/src/main/res/layout/row_chatlist.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/row_comments.xml" value="0.10677083333333333" />
         <entry key="app/src/main/res/layout/row_posts.xml" value="0.10677083333333333" />
         <entry key="app/src/main/res/layout/row_users.xml" value="0.1" />
         <entry key="app/src/main/res/layout/rwo_comments.xml" value="0.1" />
